@@ -38,6 +38,18 @@ const services = [
     ],
     href: '/services/automation',
   },
+  {
+    title: 'Paid Media Attribution Audit',
+    description: 'Find out where your ad spend is actually going. We cross-reference platform data with your real revenue to expose wasted budget and inflated ROAS.',
+    features: [
+      'Cross-reference ad conversions with CRM closed deals',
+      'Identify inflated ROAS and double attribution',
+      'Campaign-by-campaign verdict: cut, keep, fix, scale',
+      'Detailed report + personalised Loom walkthrough',
+      'ROI projection and actionable recommendations',
+    ],
+    href: '/services/attribution-audit',
+  },
 ]
 
 export default function ServicesPage() {
@@ -49,7 +61,7 @@ export default function ServicesPage() {
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
             Everything you need to grow your service business with AI — from content and lead gen to full automation infrastructure.
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((s) => (
               <ServiceCard key={s.title} {...s} />
             ))}
