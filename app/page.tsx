@@ -99,6 +99,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Free Tool CTA */}
+      <section className="py-20 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-3xl font-bold mb-4">Not Ready to Talk? Try Our Free Tool</h2>
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+            Get an instant AI-powered content score for your website. See exactly where your messaging, 
+            SEO, content freshness, and CTAs stand — in 30 seconds, completely free.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/audit" className="inline-block bg-electric text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-600 transition">
+              Score My Website — Free
+            </a>
+            <a href="/contact" className="inline-block border border-gray-300 px-8 py-4 rounded-lg text-lg font-medium hover:border-electric hover:text-electric transition">
+              Book a Discovery Call
+            </a>
+          </div>
+        </div>
+      </section>
+
       <CTA />
     </>
   )
