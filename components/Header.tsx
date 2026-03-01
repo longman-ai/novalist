@@ -16,6 +16,7 @@ export default function Header() {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8 text-sm">
           <Link href="/services" className="hover:text-electric transition">Services</Link>
+          <Link href="/audit" className="hover:text-electric transition font-medium">Free Audit</Link>
           <Link href="/about" className="hover:text-electric transition">About</Link>
           <Link href="/contact" className="bg-electric text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
             Book a Call
@@ -38,6 +39,7 @@ export default function Header() {
       {open && (
         <nav className="md:hidden border-t border-gray-100 bg-white px-6 py-6 space-y-4">
           <Link href="/services" className="block text-lg hover:text-electric transition" onClick={() => setOpen(false)}>Services</Link>
+          <Link href="/audit" className="block text-lg hover:text-electric transition font-medium" onClick={() => setOpen(false)}>Free Audit</Link>
           <Link href="/about" className="block text-lg hover:text-electric transition" onClick={() => setOpen(false)}>About</Link>
           <Link href="/contact" className="block bg-electric text-white text-center px-5 py-3 rounded-lg text-lg hover:bg-blue-600 transition" onClick={() => setOpen(false)}>
             Book a Call
