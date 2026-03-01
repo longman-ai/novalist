@@ -120,6 +120,8 @@ export default function ResultsPage() {
           firstName: firstName || undefined,
           url: data?.url,
           score: data?.overall,
+          categories: data?.categories,
+          quickWins: data?.quickWins,
         }),
       })
       const result = await res.json()
@@ -224,6 +226,9 @@ export default function ResultsPage() {
           </div>
         ) : (
           <div className="animate-fade-up bg-gradient-to-br from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-8">
+            <div className="bg-white border border-green-300 rounded-lg px-4 py-3 mb-6 text-sm text-green-800">
+              📧 We&apos;ve emailed you a copy of this report — check your inbox.
+            </div>
             <h3 className="text-xl font-bold text-navy mb-4">⚡ 3 Quick Wins</h3>
             <div className="space-y-3">
               {data.quickWins.map((win, i) => (
