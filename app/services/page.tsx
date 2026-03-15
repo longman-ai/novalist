@@ -4,25 +4,25 @@ import CTA from '@/components/CTA'
 const services = [
   {
     title: 'AI Content Engine',
-    description: 'Evergreen campaign architecture that compounds over time — not one-off content launches that fizzle out.',
+    description: 'Evergreen campaign architecture that compounds over time — plus Answer Engine Optimisation so AI search tools cite your business.',
     features: [
+      'Brand Voice Extraction from your real writing',
+      'AEO: optimised for ChatGPT, Perplexity, Google AI Overviews',
       '2-3 always-on campaigns per audience segment',
       'Full-funnel: SEO content → lead magnet → email nurture → booking',
-      'Seasonal and news content slots into existing structures',
-      'Custom brand voice AI training',
       'Content performance tracking and continuous optimisation',
     ],
     href: '/services/content-engine',
   },
   {
-    title: 'AI Lead Generation',
-    description: 'Done-for-you LinkedIn presence, buying signal detection, and personalised outreach — so you reach the right people at the right moment.',
+    title: 'LinkedIn Growth Engine',
+    description: 'Strategic engagement that builds authority and fills your pipeline — because LinkedIn now rewards conversations over content.',
     features: [
-      'LinkedIn Presence Engine: AI monitors feeds and generates contextual posts/comments',
-      'AI Intent Sprint: track Companies House filings, job posts, website changes, review velocity',
-      'Personalised outreach triggered when prospects enter growth mode',
+      'Strategic Comment Engine: expert comments on high-value threads',
+      'AI-powered posts in your authentic voice',
+      'Buying signal detection: Companies House, job posts, review velocity',
+      'Personalised outreach triggered by intent signals',
       'Engagement-to-lead conversion tracking in your CRM',
-      'A/B testing and continuous optimisation',
     ],
     href: '/services/lead-generation',
   },
@@ -40,7 +40,7 @@ const services = [
   },
   {
     title: 'Paid Media Attribution Audit',
-    description: 'Find out where your ad spend is actually going. We cross-reference platform data with your real revenue to expose wasted budget and inflated ROAS.',
+    description: 'Find out where your ad spend is actually going. We cross-reference platform data with your real revenue to expose wasted budget.',
     features: [
       'Cross-reference ad conversions with CRM closed deals',
       'Identify inflated ROAS and double attribution',
@@ -59,7 +59,8 @@ export default function ServicesPage() {
         <div className="max-w-6xl mx-auto px-6">
           <h1 className="text-4xl font-bold text-center mb-4">Our Services</h1>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Everything you need to grow your service business with AI — from content and lead gen to full automation infrastructure.
+            Marketing systems that work while you sleep. From AI-powered content and LinkedIn growth 
+            to full automation infrastructure — built for UK service businesses.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((s) => (
