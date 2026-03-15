@@ -4,7 +4,7 @@ import CTA from '@/components/CTA'
 const services = [
   {
     title: 'AI Content Engine',
-    description: 'Evergreen campaign architecture that compounds over time — plus Answer Engine Optimisation so AI search tools cite your business.',
+    description: 'Evergreen campaign architecture that compounds over time - plus Answer Engine Optimisation so AI search tools cite your business.',
     features: [
       'Brand Voice Extraction from your real writing',
       'AEO: optimised for ChatGPT, Perplexity, Google AI Overviews',
@@ -16,7 +16,7 @@ const services = [
   },
   {
     title: 'LinkedIn Growth Engine',
-    description: 'Strategic engagement that builds authority and fills your pipeline — because LinkedIn now rewards conversations over content.',
+    description: 'Strategic engagement that builds authority and fills your pipeline - because LinkedIn now rewards conversations over content.',
     features: [
       'Strategic Comment Engine: expert comments on high-value threads',
       'AI-powered posts in your authentic voice',
@@ -60,7 +60,7 @@ export default function ServicesPage() {
           <h1 className="text-4xl font-bold text-center mb-4">Our Services</h1>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
             Marketing systems that work while you sleep. From AI-powered content and LinkedIn growth 
-            to full automation infrastructure — built for UK service businesses.
+            to full automation infrastructure - built for UK service businesses.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((s) => (
@@ -78,7 +78,7 @@ export default function ServicesPage() {
             Our retainers start from £1,500/month with a one-time setup fee. Every engagement is custom-built around your business goals.
           </p>
           <p className="text-gray-600 mb-8">
-            Most clients see ROI within the first 30 days through time savings alone — before the new leads even start converting.
+            Most clients see ROI within the first 30 days through time savings alone - before the new leads even start converting.
           </p>
           <a href="/contact" className="inline-block bg-electric text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-600 transition">
             Get a Custom Quote

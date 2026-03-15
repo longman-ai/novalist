@@ -7,7 +7,7 @@ export default function AttributionAuditPage() {
         <div className="max-w-3xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-6">Stop Wasting Ad Spend</h1>
           <p className="text-xl text-gray-600 mb-12">
-            We audit your paid media and show you exactly where money is being wasted — backed by your own revenue data, not platform vanity metrics.
+            We audit your paid media and show you exactly where money is being wasted - backed by your own revenue data, not platform vanity metrics.
           </p>
 
           <h2 className="text-2xl font-bold mb-4">The Problem</h2>
@@ -20,14 +20,14 @@ export default function AttributionAuditPage() {
           <h2 className="text-2xl font-bold mb-4">What We Do</h2>
           <p className="text-gray-600 mb-8">
             We run a one-off attribution audit: pulling your ad platform data, cross-referencing it with your CRM&apos;s actual 
-            closed deals, and showing you the real numbers. No guesswork — just your ad spend mapped against verified revenue.
+            closed deals, and showing you the real numbers. No guesswork - just your ad spend mapped against verified revenue.
           </p>
 
           <h2 className="text-2xl font-bold mb-4">What You Get</h2>
           <ul className="space-y-3 text-gray-600 mb-8">
-            <li className="flex gap-3"><span className="text-electric">✓</span> Platform vs reality comparison — see exactly where numbers are inflated</li>
+            <li className="flex gap-3"><span className="text-electric">✓</span> Platform vs reality comparison - see exactly where numbers are inflated</li>
             <li className="flex gap-3"><span className="text-electric">✓</span> Campaign-by-campaign verdict: cut, keep, fix, or scale</li>
-            <li className="flex gap-3"><span className="text-electric">✓</span> Wasted spend identified in £ — not percentages, real money</li>
+            <li className="flex gap-3"><span className="text-electric">✓</span> Wasted spend identified in £ - not percentages, real money</li>
             <li className="flex gap-3"><span className="text-electric">✓</span> Detailed PDF report with actionable recommendations</li>
             <li className="flex gap-3"><span className="text-electric">✓</span> Personalised Loom video walkthrough of your findings</li>
             <li className="flex gap-3"><span className="text-electric">✓</span> ROI projection showing what you&apos;ll save</li>
@@ -63,7 +63,7 @@ export default function AttributionAuditPage() {
           <h2 className="text-2xl font-bold mb-4">The Result</h2>
           <p className="text-gray-600 mb-8">
             Most clients discover <strong>20-40% of their ad spend</strong> is going to campaigns with no verified ROI. 
-            The audit pays for itself within the first month — usually within the first week.
+            The audit pays for itself within the first month - usually within the first week.
           </p>
 
           <div className="text-center">

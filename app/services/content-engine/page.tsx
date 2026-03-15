@@ -8,7 +8,7 @@ export default function ContentEnginePage() {
           <h1 className="text-4xl font-bold mb-6">AI Content Engine</h1>
           <p className="text-xl text-gray-600 mb-12">
             Evergreen content systems that build authority, drive inbound leads, and get you cited 
-            by AI search tools — all in your authentic voice.
+            by AI search tools - all in your authentic voice.
           </p>
 
           <h2 className="text-2xl font-bold mb-4">The Problem</h2>
@@ -18,7 +18,7 @@ export default function ContentEnginePage() {
           </p>
           <p className="text-gray-600 mb-8">
             Meanwhile, AI search tools like ChatGPT, Perplexity, and Google AI Overviews are changing how people 
-            find businesses. If your content isn&apos;t structured for these tools, you&apos;re becoming invisible — 
+            find businesses. If your content isn&apos;t structured for these tools, you&apos;re becoming invisible - 
             even with decent traditional SEO.
           </p>
 
@@ -30,7 +30,7 @@ export default function ContentEnginePage() {
             <div className="border-l-4 border-electric pl-6">
               <h3 className="font-bold mb-1">Brand Voice Extraction</h3>
               <p className="text-gray-600 text-sm">
-                Before writing anything, we collect 15-20 samples of your real writing — emails, proposals, 
+                Before writing anything, we collect 15-20 samples of your real writing - emails, proposals, 
                 presentations, Slack messages. Our AI builds a Voice Profile so everything we produce sounds 
                 like you, not a robot. Clients report 5-7x more output with better engagement.
               </p>
@@ -48,7 +48,7 @@ export default function ContentEnginePage() {
               <p className="text-gray-600 text-sm">
                 We structure your content so AI search tools cite your business as the answer. This means 
                 schema markup, FAQ-optimised pages, authoritative long-form content, and strategic topic 
-                clustering — designed for both Google and AI agents.
+                clustering - designed for both Google and AI agents.
               </p>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function ContentEnginePage() {
           <h2 className="text-2xl font-bold mb-4">The Result</h2>
           <p className="text-gray-600 mb-4">
             Clients typically see a <strong>3-5x increase in content output</strong> while spending <strong>80% less time</strong> on 
-            content creation. Within 3-6 months, organic inbound leads become a reliable growth channel — from both 
+            content creation. Within 3-6 months, organic inbound leads become a reliable growth channel - from both 
             traditional search and AI-powered discovery.
           </p>
         </div>

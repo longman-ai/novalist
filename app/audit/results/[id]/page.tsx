@@ -162,7 +162,7 @@ export default function ResultsPage() {
             Overall Content Score
           </p>
           <p className="text-sm text-gray-400">
-            {data.overall >= 75 ? 'Great — your content is strong!' : data.overall >= 50 ? 'Decent — room for improvement.' : 'Needs work — let\'s fix this.'}
+            {data.overall >= 75 ? 'Great - your content is strong!' : data.overall >= 50 ? 'Decent - room for improvement.' : 'Needs work - let\'s fix this.'}
           </p>
         </div>
 
@@ -227,7 +227,7 @@ export default function ResultsPage() {
         ) : (
           <div className="animate-fade-up bg-gradient-to-br from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-8">
             <div className="bg-white border border-green-300 rounded-lg px-4 py-3 mb-6 text-sm text-green-800">
-              📧 We&apos;ve emailed you a copy of this report — check your inbox.
+              📧 We&apos;ve emailed you a copy of this report - check your inbox.
             </div>
             <h3 className="text-xl font-bold text-navy mb-4">⚡ 3 Quick Wins</h3>
             <div className="space-y-3">

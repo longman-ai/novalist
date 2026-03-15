@@ -7,14 +7,14 @@ export default function LeadGenerationPage() {
         <div className="max-w-3xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-6">LinkedIn Growth Engine</h1>
           <p className="text-xl text-gray-600 mb-12">
-            Strategic engagement that fills your pipeline with qualified prospects — because LinkedIn in 2026 
+            Strategic engagement that fills your pipeline with qualified prospects - because LinkedIn in 2026 
             rewards conversations, not just content.
           </p>
 
           <h2 className="text-2xl font-bold mb-4">The Problem</h2>
           <p className="text-gray-600 mb-4">
             You&apos;re great at what you do. But finding new clients consistently? That&apos;s a different skill entirely. 
-            Most service businesses rely on referrals and hope — which works until it doesn&apos;t.
+            Most service businesses rely on referrals and hope - which works until it doesn&apos;t.
           </p>
           <p className="text-gray-600 mb-8">
             And if you&apos;re just posting on LinkedIn hoping for leads, the 2026 algorithm has bad news: 
@@ -39,7 +39,7 @@ export default function LeadGenerationPage() {
               <p className="text-gray-600 text-sm">
                 Consistent posts in your authentic voice (extracted via our Brand Voice Profile), 
                 designed to spark the conversations that the algorithm rewards. Not generic 
-                &ldquo;thought leadership&rdquo; — real insights from your expertise.
+                &ldquo;thought leadership&rdquo; - real insights from your expertise.
               </p>
             </div>
             <div className="border-l-4 border-electric pl-6">
@@ -66,7 +66,7 @@ export default function LeadGenerationPage() {
           <p className="text-gray-600">
             Clients typically book <strong>8-12 discovery calls per month</strong> from LinkedIn alone, 
             with a <strong>40-60% increase in qualified leads</strong> within the first 90 days. 
-            Your founder becomes a recognised voice in your industry — without spending hours on LinkedIn every day.
+            Your founder becomes a recognised voice in your industry - without spending hours on LinkedIn every day.
           </p>
         </div>
       </section>

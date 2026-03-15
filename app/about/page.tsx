@@ -14,7 +14,7 @@ export default function AboutPage() {
           <p className="text-gray-600 mb-6">
             NovaList was founded by Gatluak Thiep with a simple observation: UK service businesses are sitting on a goldmine of 
             untapped efficiency. While enterprise companies pour millions into AI transformation, small and mid-size service businesses 
-            are left behind — still running on manual processes, inconsistent marketing, and hope-based lead generation.
+            are left behind - still running on manual processes, inconsistent marketing, and hope-based lead generation.
           </p>
           <p className="text-gray-600 mb-8">
             We exist to change that. NovaList brings enterprise-grade AI capabilities to service businesses at a fraction of the cost, 
@@ -39,7 +39,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             {[
               { title: 'AI-Native', desc: 'We don\'t bolt AI onto old processes. We design workflows around AI from the start.' },
-              { title: 'Results-First', desc: 'Every system we build is measured by business outcomes — time saved, leads generated, revenue grown.' },
+              { title: 'Results-First', desc: 'Every system we build is measured by business outcomes - time saved, leads generated, revenue grown.' },
               { title: 'UK-Focused', desc: 'We understand the UK market, regulations, and business culture. No one-size-fits-all templates.' },
               { title: 'Human + AI', desc: 'AI handles the heavy lifting. Humans provide the strategy, creativity, and quality control.' },
             ].map((item) => (

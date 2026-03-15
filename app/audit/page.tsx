@@ -42,7 +42,7 @@ export default function AuditPage() {
       <div className="max-w-2xl w-full text-center">
         <div className="animate-fade-up">
           <span className="inline-block bg-electric/10 text-electric text-sm font-medium px-4 py-1.5 rounded-full mb-6">
-            Free Tool — No credit card required
+            Free Tool - No credit card required
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-navy leading-tight mb-4">
             Get Your Free Website<br />

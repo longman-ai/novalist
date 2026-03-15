@@ -5,18 +5,18 @@ import CTA from '@/components/CTA'
 const services = [
   {
     title: 'AI Content Engine',
-    description: 'Evergreen campaigns that compound — plus AI search optimisation so you show up in ChatGPT, Perplexity, and Google AI Overviews.',
+    description: 'Evergreen campaigns that compound - plus AI search optimisation so you show up in ChatGPT, Perplexity, and Google AI Overviews.',
     features: [
       'Brand voice extraction: AI trained on YOUR writing, not generic templates',
       'Answer Engine Optimisation (AEO): get cited by AI search tools',
       'Always-on funnels: SEO → lead magnet → email nurture → bookings',
-      'Content that compounds — not one-off posts that fizzle',
+      'Content that compounds - not one-off posts that fizzle',
     ],
     href: '/services/content-engine',
   },
   {
     title: 'LinkedIn Growth Engine',
-    description: 'Strategic engagement that builds your authority — because LinkedIn now rewards conversations, not just content.',
+    description: 'Strategic engagement that builds your authority - because LinkedIn now rewards conversations, not just content.',
     features: [
       'Done-for-you strategic commenting on high-value threads',
       'AI-powered posts in your authentic voice',
@@ -113,7 +113,7 @@ export default function Home() {
                 presentations, and past content. The result? AI-powered content that sounds like <strong>you</strong>, not a robot.
               </p>
               <p className="text-gray-600">
-                This is why our clients see 5-7x more output with <em>better</em> engagement — because authenticity 
+                This is why our clients see 5-7x more output with <em>better</em> engagement - because authenticity 
                 beats volume every time.
               </p>
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
                   { step: '01', text: 'We collect 15-20 samples of your real writing' },
                   { step: '02', text: 'Our AI builds your unique Voice Profile' },
                   { step: '03', text: 'Every piece of content matches your tone, style, and personality' },
-                  { step: '04', text: 'You approve, we publish — indistinguishable from your own work' },
+                  { step: '04', text: 'You approve, we publish - indistinguishable from your own work' },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-4 items-start">
                     <span className="text-electric font-bold text-sm">{item.step}</span>
@@ -144,7 +144,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4">Is Your Business Showing Up in AI Search?</h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             ChatGPT, Perplexity, and Google AI Overviews are changing how people find businesses. 
-            Traditional SEO isn&apos;t enough anymore — you need <strong>Answer Engine Optimisation (AEO)</strong> to 
+            Traditional SEO isn&apos;t enough anymore - you need <strong>Answer Engine Optimisation (AEO)</strong> to 
             ensure AI tools cite your business as the answer.
           </p>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -152,7 +152,7 @@ export default function Home() {
             dominate their category for years. We build content that both Google <em>and</em> AI agents love.
           </p>
           <a href="/audit" className="inline-block bg-electric text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-600 transition">
-            Check Your AI Visibility — Free
+            Check Your AI Visibility - Free
           </a>
         </div>
       </section>
@@ -172,7 +172,7 @@ export default function Home() {
               },
               {
                 title: 'Your Voice, Not Ours',
-                desc: 'We extract your brand voice first. Everything we produce sounds like you — because it is you, amplified.',
+                desc: 'We extract your brand voice first. Everything we produce sounds like you - because it is you, amplified.',
               },
               {
                 title: 'Systems, Not Deliverables',
@@ -194,11 +194,11 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-4">Not Ready to Talk? Start Here.</h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             Get an instant AI-powered content score for your website. See exactly where your messaging, 
-            SEO, and AI search visibility stand — in 30 seconds, completely free.
+            SEO, and AI search visibility stand - in 30 seconds, completely free.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/audit" className="inline-block bg-electric text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-600 transition">
-              Score My Website — Free
+              Score My Website - Free
             </a>
             <a href="/contact" className="inline-block border border-gray-300 px-8 py-4 rounded-lg text-lg font-medium hover:border-electric hover:text-electric transition">
               Book a Discovery Call
