@@ -16,6 +16,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'ai-visibility-gap',
+    title: '10 Things Working in B2B Marketing Right Now (July 2026)',
+    excerpt: 'From AI answer visibility to agentic automation and lead-triage bottlenecks — 10 real signals we pulled from B2B marketing communities this month, and what they mean for UK service businesses.',
+    date: '27 Jul 2026',
+    readTime: '6 min read',
+    category: 'Trends',
+  },
+  {
     slug: 'b2b-marketing-graveyard',
     title: 'The B2B Marketing Graveyard: 5 Strategies That Died in 2026 (And What Replaced Them)',
     excerpt: 'Cold email blasts, generic LinkedIn automation, gated whitepapers — the tactics that built pipelines for years are quietly dying. Here\'s what\'s actually working now.',
